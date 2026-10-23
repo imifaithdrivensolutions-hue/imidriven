@@ -25,17 +25,19 @@ const steps = [
   ['04', 'Transform', 'Deploy, improve and help your organisation get lasting value.']
 ];
 
+
 function Logo() {
   return (
     <a className="logo" href="#home" aria-label="IMI Faith Driven Solutions home">
       <img
-        src="Public/logo.png.png"
+        src="/logo.png.png"
         alt="IMI Faith Driven Solutions"
         className="logo-image"
       />
     </a>
   );
 }
+
 function App() {
   const [open, setOpen] = React.useState(false);
   const [theme, setTheme] = React.useState('pink');
